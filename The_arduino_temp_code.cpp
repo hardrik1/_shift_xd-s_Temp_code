@@ -1,50 +1,48 @@
-  floatempmp = dht.readTemperature();
-  
-    if (isnan(temp)) {
-            Serial.printemp"DHTemperatureed.");
-                del600);
-  dhtempgin();
-  BLE Keyboard  Serial.pri connected= 0;
-
-void setemp) {
+ paused= 0;
+ 
+ void s#include <DHTempeetemp) {
       pinMode(BUZZER, OUTemperaturenMode(BUTemperature_PULLUP);
-        Serial.begin(9#include <DHTemperaturene DHTemperatureine DHTemperature
-#define BUZ alTON) == LOW) {
-        alarmStopped = true;
-            noTone(BUZZER);
-                Serial.println("All sounds stopped by button.");
-}
+        Serial.begin(9600);raturene DHTemperatureine DHTemperature
+#define BUZZER 8
+#d"
+          dhtempgin();
+            Serial.printemial.begin(9600);
+              dht.begin();
+                Serial.println("Sleep Temp Monitor Active...");
+ }
+                
+ void loop() {
+   if (digitalRead(BUTTON) == LOW) {
+       alarmStopped = true;
+           noTone(BUZZER);
+               Serial.println("All sou11ns stemped by butemp.");
+ }    delay(2000);
+         retemp;
+ }
 
-  if (alarmStopped) return;
+   Serial.printempemper);
+     Serial.printempmp);
+       Serial.printemp" atemp: "
+               
+   if (alarmStemped) retemp;
+   
+     floatempmp = dhtempadTemperature();
+   (isnan(temp)) {
+       S}   
+       ifefine BUTemperature dhtempTempve...");
+ }
+ 
+ v"}   
+       ifefine BUTemperature dhtempTempve...");
+ }
+ 
+ v"
+          dhtempgin();
+            Serial.printemp"Sleep Temperaturer Actiraturenerial.printemp"DHTemperatureed.");
 
-    float temp = dht.readTemperature();
-
-      if (isnan(temp)) {
-            Serial.println("DHT read failed.");
-                delay(2000);
-                    return;
-      }
-
-        Serial.print("Temperature: ");
-          Serial.print(temp);
-            Se11ral.printemp" 
-      }
-}"
-        
-     opped) return;
-     
-     if (alarmStZER 8 connected= 0;
-
-void setemp) {
-      pinMode(BUZZER, OUTemperaturenMode(BUTemperature_PULLUP);
-        Serial.begin(9#include <DHTempentemp"Sleep Temperaturer Active...");
-}
-
-void loop() {
-      if (digitempead(BUTemperatureW) {
-           
-      })
-}
+          dhtempgin();
+            Serial.printemp"Sleep Temperaturer Actiraturene DHTemperatureine DHTemperature
+#define BUZZER 8
 #define BUTemperature dhtempTemperaturePE);
 
 bool alarmStemped = false;
