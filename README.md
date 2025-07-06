@@ -1,5 +1,5 @@
 😴 Sleep Tempreature Moniter (Arduino UNO Edition )
-![image]![Picsart_25-07-06_22-04-49-840](https://github.com/user-attachments/assets/995ccb55-8644-403f-a22f-898edfa294d3)
+![Picsart_25-07-06_22-04-49-840](https://github.com/user-attachments/assets/995ccb55-8644-403f-a22f-898edfa294d3)
 
 
 Hey lol 👋 This is a super chill Arduino project to help u sleep better (or like… at least make ur room beep until u finally give up 😂).
